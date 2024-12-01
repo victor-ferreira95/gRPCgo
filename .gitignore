@@ -1,0 +1,41 @@
+# Executáveis e arquivos binários
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# Arquivos de saída de cobertura de testes
+*.out
+
+# Diretórios de dependências
+vendor/
+Godeps/
+
+# Módulos Go
+go.sum
+go.mod
+
+# Arquivos de workspace do Go
+go.work
+go.work.sum
+
+# Diretórios de compilação
+bin/
+build/
+dist/
+
+# Arquivos gerados
+gen/
+
+# Arquivos de editores e IDEs
+*.swp
+*.swo
+.idea/
+.vscode/
+*.iml
+
+# Logs e caches
+*.log
+.cache/
+.tmp/
